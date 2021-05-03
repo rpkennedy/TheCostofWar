@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1714443033752477426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1714443033752477424}
+  - component: {fileID: 1714443033752477427}
+  m_Layer: 0
+  m_Name: Operation
+  m_TagString: Operation
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1714443033752477424
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714443033752477426}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1714443033752477427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714443033752477426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d0911332629184a8545a34dfff7983, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  islandID: 0
+  pathfinder: {fileID: 0}
+  grid: {fileID: 0}
+  soldierCoords:
+  - {x: 7, y: 5}
+  - {x: 3, y: 9}
+  shipCoords: []
+  aaCoords: []
+  enemies: []
+  soldier: {fileID: 4177034633045863360, guid: 2f8e84b7b99507a4db20a1e1ee659157, type: 3}
+  ship: {fileID: 9063468341689481493, guid: 6576ae0648ca6bc4d941374a7296d18b, type: 3}
+  aa: {fileID: 4177034633045863360, guid: ff9fbf3d333389f4ca23a79a5af65bd9, type: 3}
+  moveInProgress: 0
+  bombing: 0

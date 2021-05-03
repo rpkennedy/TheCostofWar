@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ab8c4e2313bf9714ba18c33a7dea1989
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - platoonAbilityPrefab: {instanceID: 0}
+  - reconAbilityPrefab: {instanceID: 0}
+  - bomberAbilityPrefab: {instanceID: 0}
+  - carrierAbilityPrefab: {fileID: 9037769280030048695, guid: cf25402ed20a0ef4e94fc7d93efea08b, type: 3}
+  - battleshipAbilityPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

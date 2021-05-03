@@ -4,21 +4,21 @@ using UnityEngine;
 
 public class CameraScroll : MonoBehaviour
 {
-    public float edgeSize; //number of pixels from the wall
-    public float moveAmount; //number of pixels to move by
+    private float edgeSize = 70; //number of pixels from the wall
+    private float moveAmount = 100; //number of pixels to move by
 
-    public float fastEdgeSize;
-    public float fastMoveAmount;
+    private float fastEdgeSize = 35;
+    private float fastMoveAmount = 250;
 
     [Header("Camera Boundaries")]
-    public float rightCap;
-    public float leftCap;
+    private float rightCap = 0;
+    private float leftCap = -318;
 
     private Transform _main;
 
     private void Awake()
     {
-        _main = Camera.main.gameObject.transform;
+        _main = Camera.main.gameObject.transform;        
     }
     private void Update()
     {

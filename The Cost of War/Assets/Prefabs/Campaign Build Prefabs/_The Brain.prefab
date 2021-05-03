@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9019107464149562192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9019107464149562197}
+  - component: {fileID: 9019107464149562199}
+  - component: {fileID: 9019107464149562198}
+  m_Layer: 0
+  m_Name: _The Brain
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9019107464149562197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9019107464149562192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9019107464149562199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9019107464149562192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9fc867ce881f5a41a5b57b092438be7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theFallen: []
+  platoons: []
+  reconPlanes: []
+  bombers: []
+  battleships: []
+  carriers: []
+  platoonPrefab: {fileID: 4177034633045863360, guid: 7ebec650aab4b4c4aafac71b4ec5fdeb, type: 3}
+  recPlanePrefab: {fileID: 2368605822555620369, guid: 2f77f957f7d7e074aa126f98b97a4cd7, type: 3}
+  bomberPrefab: {fileID: 8157866155294888864, guid: c59403317dabed24d80964f41be069c9, type: 3}
+  battleshipPrefab: {fileID: 9063468341689481493, guid: feaa3ff700f543d42848e887c743b292, type: 3}
+  carrierPrefab: {fileID: 7911297216063783170, guid: 6aa0891616d9c5544847f680fe94f373, type: 3}
+  vesselsEmbarked: []
+  unitsEmbarked: []
+  embarkedVitals: []
+--- !u!114 &9019107464149562198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9019107464149562192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c7add33b6ced7499fe1f3560b8c5a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
